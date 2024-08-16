@@ -224,7 +224,7 @@ void PS_MMJCel(in float4 pos : SV_POSITION, in float2 texcoord : TEXCOORD0, out 
     fragColor = float4(col,1.0);
 } 
 
-technique MMJCelShader {
+technique TC_MMJCelShader {
     pass MMJCelShader {
         VertexShader=PostProcessVS;
         PixelShader=PS_MMJCel;

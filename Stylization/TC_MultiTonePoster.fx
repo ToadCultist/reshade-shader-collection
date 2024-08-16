@@ -111,7 +111,7 @@ float3 MultiTonePoster_PS(float4 vpos : SV_Position, float2 texcoord : TexCoord)
 	return lerp(color, colors[(int)floor(luma * numColors)].rgb, fUIStrength);
 }
 
-technique MultiTonePoster {
+technique TC_MultiTonePoster {
 	pass {
 		VertexShader = PostProcessVS;
 		PixelShader = MultiTonePoster_PS;

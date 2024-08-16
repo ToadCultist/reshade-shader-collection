@@ -605,7 +605,7 @@ namespace Comic {
     }
 }
 
-technique Comic
+technique TC_Comic
 {
     pass {
         VertexShader = PostProcessVS;

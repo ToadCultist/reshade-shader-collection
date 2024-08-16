@@ -29,7 +29,7 @@ float3 ChromaticAberrationPass(float4 vpos : SV_Position, float2 texcoord : TexC
 	return lerp(colorInput, color, Strength);
 }
 
-technique CA
+technique TC_CA
 {
 	pass
 	{

@@ -24,7 +24,7 @@ float4 PS_Color(CShade_VS2PS_Quad Input) : SV_TARGET0
     return OutputColor;
 }
 
-technique CShade_Pixelate
+technique TC_CShade_Pixelate
 {
     pass
     {

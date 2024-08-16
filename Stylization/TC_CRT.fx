@@ -302,7 +302,7 @@ float3 AdvancedCRTPass(float4 position : SV_Position, float2 tex : TEXCOORD) : S
 	return saturate(color);
 }
 
-technique AdvancedCRT
+technique TC_AdvancedCRT
 {
 	pass
 	{

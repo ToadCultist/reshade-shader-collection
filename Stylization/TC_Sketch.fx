@@ -383,7 +383,7 @@ float4 MainPS(
 
 //#region Technique
 
-technique Sketch
+technique TC_Sketch
 {
 	#if SKETCH_SMOOTH
 		pass BlurX

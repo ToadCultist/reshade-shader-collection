@@ -82,7 +82,7 @@ void PS_Cathode(in float4 pos : SV_POSITION, in float2 txcoord : TEXCOORD0, out 
 	frgcol = float4(col, 1.0);
 }
 
-technique Cathode {
+technique TC_Cathode {
 	pass Cathode
 	{	
 		VertexShader = PostProcessVS;

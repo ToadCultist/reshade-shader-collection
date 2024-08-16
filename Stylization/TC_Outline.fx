@@ -125,7 +125,7 @@ float3 PS_Outline(float4 position : SV_Position, float2 texcoord : TEXCOORD0) : 
 	return color;
 }
 
-technique Outline
+technique TC_Outline
 {
 	pass
 	{

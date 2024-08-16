@@ -65,7 +65,7 @@ float3 VibrancePass(float4 position : SV_Position, float2 texcoord : TexCoord) :
 	return color;
 }
 
-technique Vibrance
+technique TC_Vibrance
 {
 	pass
 	{

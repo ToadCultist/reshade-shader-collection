@@ -137,7 +137,7 @@ void PS_Dither(
 
 //Technique///////////////////////////////////////////////////////////////////////////////
 
-technique Dither {
+technique TC_Dither {
     pass {
         VertexShader = PostProcessVS;
         PixelShader  = PS_Dither;

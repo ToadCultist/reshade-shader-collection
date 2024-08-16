@@ -124,7 +124,7 @@ float3 patternShading(in float4 pos : SV_Position, in float2 texcoord : TEXCOORD
 	return pattern;
 }
 
-technique PatternShading
+technique TC_PatternShading
 {
 	pass pass0
 	{

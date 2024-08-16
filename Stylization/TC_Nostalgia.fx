@@ -586,7 +586,7 @@ float3 PS_Nostalgia(float4 vpos : SV_Position, float2 texcoord : TEXCOORD) : SV_
 | :: Technique :: |
 '----------------*/
 
-technique Nostalgia
+technique TC_Nostalgia
 {
 	pass NostalgiaPass
 	{

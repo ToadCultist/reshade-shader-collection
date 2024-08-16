@@ -194,7 +194,7 @@ float3 ColorfulPoster_PS(float4 vpos : SV_Position, float2 texcoord : TexCoord) 
     return result;
 }
 
-technique ColorfulPoster
+technique TC_ColorfulPoster
 {
     pass {
         VertexShader = PostProcessVS;

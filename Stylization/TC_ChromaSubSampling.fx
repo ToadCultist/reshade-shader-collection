@@ -100,7 +100,7 @@ float3 chromaSubSampling(in float4 pos : SV_Position, in float2 texcoord : TEXCO
     }
 }
 
-technique ChromaSubSampling
+technique TC_ChromaSubSampling
 {
 	pass pass0
 	{
